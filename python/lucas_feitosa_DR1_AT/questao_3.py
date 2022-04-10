@@ -15,7 +15,7 @@ def calc_renda():
     expenses = {'moradia': float(input("Gastos totais com moradia: R$ ")),
                 'educação': float(input("Gastos totais com educação: R$ ")),
                 'transporte': float(input("Gastos totais com transporte: R$ "))}
-
+ 
     expenses_percentage = get_expenses_percentage(salario, expenses)
     print("----------------------------------------------------------------------")
 
